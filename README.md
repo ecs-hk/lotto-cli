@@ -17,8 +17,8 @@ Currently Powerball analysis is the only supported feature. The latest, continuo
 After cloning this repo:
 
 1. At the root of the cloned repo, create an `.env` file
-2. Create a [NY Open Data account](https://data.ny.gov/login) (it's easy)
-3. Log in with your new account and "Create New App Token"
+2. Sign up for a [NY Open Data account](https://data.ny.gov/login) (it's easy)
+3. Using your new account, access [Developer Settings](https://data.ny.gov/profile/edit/developer_settings) and "Create New App Token"
 4. Copy your "App Token", and then paste it into your `.env` file along with the following:
 
 ```bash
