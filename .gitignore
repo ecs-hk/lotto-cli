@@ -1,0 +1,24 @@
+# Ignore everything
+*
+# Include necessary dot-files
+!.eslintignore
+!.eslintrc
+!.gitignore
+# Include necessary files
+!LICENSE
+!package.json
+!package-lock.json
+!README.md
+# Include necessary directories
+!bin
+!bin/powerball
+!data
+!data/README.md
+!lib
+!lib/*.js
+!lib/env
+!lib/env/*.js
+!lib/futil
+!lib/futil/*.js
+!lib/powerball
+!lib/powerball/*.js
