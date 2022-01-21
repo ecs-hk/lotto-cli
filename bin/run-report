@@ -54,7 +54,8 @@ source_in_env() {
 }
 
 export_env_variables() {
-        export POWERBALL_APP_TOKEN
+        export NYDATA_APP_TOKEN
+        export MEGA_MILLIONS_URI
         export POWERBALL_URI
 }
 

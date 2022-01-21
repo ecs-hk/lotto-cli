@@ -11,14 +11,16 @@
 !README.md
 # Include necessary directories
 !bin
-!bin/powerball
+!bin/run-report
 !data
 !data/README.md
 !lib
 !lib/*.js
 !lib/env
 !lib/env/*.js
+!lib/fetch
+!lib/fetch/*.js
 !lib/futil
 !lib/futil/*.js
-!lib/powerball
-!lib/powerball/*.js
+!lib/munge
+!lib/munge/*.js
