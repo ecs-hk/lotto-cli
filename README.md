@@ -58,36 +58,41 @@ Source data for Powerball winning numbers:
 Mega Millions report snippet with comments:
 
 ```
-  # Winning numbers from 2,054 drawings were analyzed.
-  totalDrawings: 2054,
+  # Winning numbers from 2,134 drawings were analyzed.
+  totalDrawings: 2134,
 
-  # In the analyzed data, the '31' white ball appeared 203 times;
-  # the '10' white ball apeared 198 times; and so on.
+  # In the analyzed data, the '31' white ball appeared 208 times;
+  # the '10' white ball apeared 201 times; and so on.
   whiteBalls: [
-    [ '31', 203 ], [ '10', 198 ], [ '17', 195 ], [ '14', 193 ],
-    [ '20', 192 ], [ '48', 187 ], [ '46', 186 ], [ '39', 185 ],
+    [ '31', 208 ], [ '10', 201 ], [ '14', 201 ], [ '20', 201 ],
+    [ '17', 200 ], [ '46', 191 ], [ '48', 190 ], [ '51', 190 ],
 
-  # The '10' gold ball (i.e. the Mega Ball) appeared 83 times;
-  # the '15' gold ball appeared 78 times; etc.
+  # The '10' gold ball (i.e. the Mega Ball) appeared 86 times;
+  # the '15' gold ball appeared 81 times; etc.
   goldBalls: [
-    [ '10', 83 ], [ '15', 78 ], [ '7', 76 ],  [ '9', 74 ],
-    [ '13', 74 ], [ '11', 72 ], [ '3', 70 ],  [ '6', 69 ],
+    [ '10', 86 ], [ '15', 81 ], [ '7', 76 ],  [ '13', 76 ],
+    [ '9', 74 ],  [ '11', 74 ], [ '3', 70 ],  [ '6', 69 ],
 
   # The range (i.e. the difference between the largest and smallest
   # winning number for a given drawing) min, max, and mean for white
   # balls only. It may make sense to choose numbers with ranges that
   # are within the min and max.
-  whiteBallRange: 'Range min: 12, max: 74, mean: 42.02726387536514',
+  whiteBallRange: 'Range min: 12, max: 74, mean: 42.25257731958763',
 
   # The average number of odd balls (of any color) for each drawing
   # was ~2.95; the average number of even balls for each drawing was
   # ~3.05. (Not super interesting, but it does show that winning
   # tickets tend to have a pretty even mix of odd and even numbers.)
-  allBallOddEven: 'Mean 2.954722 odd balls : 3.045277 even balls',
+  allBallOddEven: 'Mean 2.955014058106842 odd balls : 3.044985941893158 even balls',
 
   # The sum of all balls' min, max, and mean. It may make sense to
   # choose numbers with sums that are within the min and max.
-  allBallSum: 'Sum min: 59, max: 322, mean: 174.8846153846154'
+  allBallSum: 'Sum min: 59, max: 322, mean: 175.23336457357075',
+
+  # Generated lucky fun Mega Millions pick. Pseudo-random selection with
+  # stronger weighting for historically-common balls. Very likely to be
+  # flawed. For informational and entertainment purposes only.
+  luckyFunPick: { white: [ '6', '9', '32', '18', '40' ], gold: [ '3' ] }
 ```
 
 # Crypto love
