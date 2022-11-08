@@ -33,7 +33,7 @@ Source data for Mega Millions winning numbers:
 ### Run it
 
 ```bash
-# Report on all available data
+# Report on all available data (across range changes)
 ./bin/run-report mega-millions
 
 # Report on data from Oct. 31, 2017 onward
