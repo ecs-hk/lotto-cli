@@ -96,8 +96,3 @@ Mega Millions report snippet with comments:
   luckyFunPick: { white: [ '51', '38', '02', '15', '18' ], gold: [ '18' ] }
 ```
 
-# Crypto love
-
-If, for some inexplicable reason, you find this information useful, there is an XLM wallet that happily accepts inbound transfers:
-
-`GBFJKUDOD5YER4TAMFFU5CAHY7OEQAUZYJSWRCRRGSGUERW6BRNNPXNF` (memo ID: `-`)
