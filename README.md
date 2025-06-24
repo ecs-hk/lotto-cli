@@ -95,4 +95,3 @@ Mega Millions report snippet with comments:
   # purposes only.
   luckyFunPick: { white: [ '51', '38', '02', '15', '18' ], gold: [ '18' ] }
 ```
-
