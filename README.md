@@ -1,5 +1,11 @@
 # lotto-cli
 
+******
+
+Archiving unless/until actively maintained again.
+
+******
+
 Simple and unsophisticated lottery analysis utility.
 
 * For informational and entertainment purposes only.
